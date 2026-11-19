@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b2d">
+  <meta name="description" content="JT Electric: instalaciones, reparaciones y mantenimiento eléctrico en Madrid y Comunidad de Madrid. Solicita tu presupuesto por WhatsApp o correo.">
+  <title>JT Electric | Electricista en Madrid</title>
+  <style>
+    :root{--navy:#101b2d;--navy2:#172840;--gold:#f2b632;--ink:#172235;--muted:#65738a;--paper:#f5f7fa;--white:#fff;--line:#e4e9f0}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{background:rgba(16,27,45,.97);color:white;position:sticky;top:0;z-index:5;border-bottom:1px solid #ffffff1a}
+    .nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.04em;font-size:1.15rem}
+    .bolt{width:38px;height:38px;border-radius:11px;background:var(--gold);display:grid;place-items:center;color:var(--navy);font-size:23px}
+    nav{display:flex;gap:25px;align-items:center;font-size:.94rem;color:#dbe4f1}nav a:hover{color:var(--gold)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:9px;background:var(--gold);color:#152238;font-weight:800;border:0;cursor:pointer;transition:.2s}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.04)}.btn-outline{background:transparent;border:1px solid #ffffff70;color:white}
+    .hero{background:radial-gradient(ellipse at 80% 25%,#274466 0,transparent 38%),linear-gradient(125deg,var(--navy),#172a43);color:white;padding:94px 0 88px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:50px}.eyebrow{color:var(--gold);font-size:.82rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+    h1{font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;letter-spacing:-.045em;margin:17px 0 20px;max-width:720px}
+    .hero p{font-size:1.15rem;color:#d5deea;max-width:590px;margin:0 0 28px}.actions{display:flex;flex-wrap:wrap;gap:12px}
+    .visual{min-height:330px;border:1px solid #ffffff26;border-radius:24px;background:linear-gradient(145deg,#ffffff12,#ffffff04);display:grid;place-items:center;position:relative}
+    .visual:before,.visual:after{content:"";position:absolute;border:1px solid #f2b63255;border-radius:50%;width:240px;height:240px}
+    .visual:after{width:300px;height:300px;border-color:#ffffff20}
+    .visual-icon{z-index:1;width:150px;height:150px;border-radius:35px;background:var(--gold);display:grid;place-items:center;font-size:88px;color:var(--navy);box-shadow:0 22px 70px #0005}
+    .visual-label{position:absolute;bottom:22px;color:#d5deea;font-size:.9rem;letter-spacing:.08em;text-transform:uppercase}
+    .trust{background:var(--paper);padding:18px 0}.trust-row{display:flex;justify-content:center;gap:34px;flex-wrap:wrap;color:#41516a;font-weight:700;font-size:.92rem}.trust span:before{content:"✓";color:#b17b0b;margin-right:8px;font-weight:900}
+    section{padding:78px 0}.section-head{text-align:center;max-width:690px;margin:0 auto 40px}.section-head h2{font-size:clamp(2rem,4vw,2.8rem);line-height:1.15;margin:9px 0 12px;letter-spacing:-.035em}.section-head p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border:1px solid var(--line);border-radius:15px;background:white;box-shadow:0 8px 28px #17223508}.card .ico{width:48px;height:48px;border-radius:12px;background:#fff3d6;color:#916300;display:grid;place-items:center;font-size:23px;margin-bottom:17px}.card h3{margin:0 0 8px;font-size:1.13rem}.card p{margin:0;color:var(--muted);font-size:.96rem}
+    .about{background:var(--paper)}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}.about-panel{background:var(--navy);color:white;padding:35px;border-radius:20px;min-height:270px;display:flex;flex-direction:column;justify-content:space-between}.about-panel strong{font-size:2rem;line-height:1.15}.about-panel small{color:#c5d1e0}.about-copy h2{font-size:2.4rem;line-height:1.15;margin:10px 0 15px}.about-copy p{color:var(--muted)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}.step{border-left:3px solid var(--gold);padding:4px 0 4px 17px}.step b{display:block;margin-bottom:4px}.step span{color:var(--muted);font-size:.94rem}
+    .contact{background:var(--navy);color:white}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start}.contact h2{font-size:2.6rem;line-height:1.1;margin:10px 0 15px}.contact p{color:#cbd5e1}.contact-box{background:#fff;color:var(--ink);border-radius:17px;padding:28px}.contact-item{padding:14px 0;border-bottom:1px solid var(--line)}.contact-item:last-child{border:0}.contact-item small{display:block;color:var(--muted);font-weight:700;margin-bottom:3px}.contact-item a{font-weight:800;overflow-wrap:anywhere}
+    footer{background:#0b1422;color:#b8c4d4;padding:24px 0;font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    .float-wa{position:fixed;right:20px;bottom:20px;z-index:8;background:#20b968;color:white;border-radius:50px;padding:14px 18px;font-weight:900;box-shadow:0 8px 24px #0003}
+    @media(max-width:800px){nav{display:none}.hero{padding:68px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.visual{min-height:250px}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.about-grid{gap:25px}}
+    @media(max-width:540px){.wrap{width:min(100% - 30px,1120px)}.cards{grid-template-columns:1fr}.hero h1{font-size:2.7rem}.actions .btn{width:100%}.contact h2{font-size:2.2rem}.float-wa{right:12px;bottom:12px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="JT Electric, inicio"><span class="bolt">ϟ</span><span>JT ELECTRIC</span></a>
+    <nav aria-label="Navegación principal"><a href="#servicios">Servicios</a><a href="#empresa">La empresa</a><a href="#contacto">Contacto</a></nav>
+    <a class="btn" href="#contacto">Pedir presupuesto</a>
+  </div>
+</header>
+<main>
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Electricidad · Madrid</div>
+        <h1>Instalaciones eléctricas hechas con <span style="color:var(--gold)">seguridad</span> y confianza.</h1>
+        <p>En JT Electric te ayudamos con instalaciones, reparaciones y mantenimiento eléctrico para tu vivienda o negocio en Madrid y su comunidad.</p>
+        <div class="actions">
+          <a class="btn" href="https://wa.me/34631715766?text=Hola%20JT%20Electric%2C%20quiero%20solicitar%20un%20presupuesto." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          <a class="btn btn-outline" href="tel:+34631715766">Llamar ahora</a>
+        </div>
+      </div>
+      <div class="visual" aria-label="Identidad visual de JT Electric"><div class="visual-icon">ϟ</div><div class="visual-label">Servicio eléctrico profesional</div></div>
+    </div>
+  </section>
+  <div class="trust"><div class="wrap trust-row"><span>Atención directa</span><span>Presupuestos personalizados</span><span>Comunidad de Madrid</span></div></div>
+
+  <section id="servicios">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Qué hacemos</div><h2>Servicios eléctricos</h2><p>Soluciones para mantener tus instalaciones en buen estado y responder a las necesidades de tu vivienda o local.</p></div>
+      <div class="cards">
+        <article class="card"><div class="ico">⌁</div><h3>Instalaciones eléctricas</h3><p>Nuevos puntos de luz y enchufes, ampliaciones de circuitos y trabajos de instalación.</p></article>
+        <article class="card"><div class="ico">▦</div><h3>Cuadros eléctricos</h3><p>Montaje, sustitución, revisión y adecuación de cuadros y protecciones eléctricas.</p></article>
+        <article class="card"><div class="ico">⚡</div><h3>Reparaciones y averías</h3><p>Localización de fallos, sustitución de mecanismos y solución de incidencias eléctricas.</p></article>
+        <article class="card"><div class="ico">◉</div><h3>Iluminación</h3><p>Instalación y sustitución de luminarias, puntos de luz y mecanismos de mando.</p></article>
+        <article class="card"><div class="ico">⌂</div><h3>Viviendas y locales</h3><p>Trabajos eléctricos para hogares, pequeños negocios y espacios comerciales.</p></article>
+        <article class="card"><div class="ico">✓</div><h3>Revisión y mantenimiento</h3><p>Comprobaciones y mantenimiento de instalaciones según el trabajo solicitado.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="empresa">
+    <div class="wrap about-grid">
+      <div class="about-panel"><div class="eyebrow">JT Electric</div><strong>Tu instalación eléctrica merece un trabajo bien hecho.</strong><small>Atención en Madrid y Comunidad de Madrid.</small></div>
+      <div class="about-copy"><div class="eyebrow">Quiénes somos</div><h2>Cercanía, claridad y soluciones prácticas.</h2><p>En JT Electric atendemos cada solicitud de forma directa. Cuéntanos qué necesitas y valoraremos el trabajo para ofrecerte una solución y un presupuesto adaptados.</p><p>Trabajamos en Madrid y distintos municipios de la Comunidad de Madrid. La disponibilidad y el alcance de cada servicio se confirman al solicitar presupuesto.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Cómo trabajamos</div><h2>Solicitar tu presupuesto es sencillo</h2><p>Cuéntanos el trabajo y nos pondremos en contacto contigo.</p></div>
+      <div class="steps">
+        <div class="step"><b>1. Contacta con nosotros</b><span>Escríbenos por WhatsApp o correo y describe lo que necesitas.</span></div>
+        <div class="step"><b>2. Valoramos el trabajo</b><span>Revisamos los detalles y, si hace falta, coordinamos una visita.</span></div>
+        <div class="step"><b>3. Recibe tu presupuesto</b><span>Te explicamos el trabajo previsto y el precio antes de comenzar.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="wrap contact-grid">
+      <div><div class="eyebrow">Hablemos</div><h2>¿Necesitas un electricista en Madrid?</h2><p>Contacta con JT Electric para consultar disponibilidad o solicitar un presupuesto.</p>
+        <a class="btn" href="https://wa.me/34631715766?text=Hola%20JT%20Electric%2C%20quiero%20solicitar%20un%20presupuesto." target="_blank" rel="noopener">Solicitar por WhatsApp</a>
+      </div>
+      <div class="contact-box">
+        <div class="contact-item"><small>Teléfono / WhatsApp</small><a href="tel:+34631715766">631 715 766</a></div>
+        <div class="contact-item"><small>Correo electrónico</small><a href="mailto:jtelectricservi@gmail.com">jtelectricservi@gmail.com</a></div>
+        <div class="contact-item"><small>Zona de trabajo</small><strong>Madrid y Comunidad de Madrid</strong></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> JT Electric. Todos los derechos reservados.</span><span>Madrid · Comunidad de Madrid</span></div></footer>
+<a class="float-wa" href="https://wa.me/34631715766?text=Hola%20JT%20Electric%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">WhatsApp ↗</a>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
